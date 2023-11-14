@@ -1,0 +1,86 @@
+body {
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.all-card { 
+    display: flex;
+    background-color: white;
+    font-size: 11px;
+    text-align: start;
+    width: 40rem;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+
+.all-card img{
+    max-width: 50%;
+    display: flex;
+    border-end-start-radius: 2%;
+    border-start-start-radius: 2%;
+      
+}
+
+.text-and-price {
+    padding: 2rem;
+}
+
+.class-parfume {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    color: hsl(228, 12%, 48%)
+           
+}
+
+.title-text {
+    font-family: 'Fraunces', serif;
+    font-size: 2.2rem    
+}
+
+.description-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%)
+
+
+}
+.final-price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    
+}
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button { 
+    color: hsl(158, 36%, 37%);
+}
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 451px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .image-text-container {
+        width: auto;
+        padding: 1rem;
+    }
+} */
