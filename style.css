@@ -11,9 +11,7 @@ body {
     display: flex;
     background-color: white;
     font-size: 11px;
-    text-align: start;
     width: 40rem;
-    margin: 0 auto;
     border-radius: 2%;
 }
 
@@ -48,23 +46,49 @@ body {
     font-size: 1rem;
     color: hsl(228, 12%, 48%)
 
+}
 
+.price-and-offert {
+    display: flex;
+    align-items: center;
+    justify-content: start ;
+    
 }
 .final-price {
     font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
     color: hsl(158, 36%, 37%);
     
 }
 
 .old-price {
     font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-weight: 300;
+    color: hsl(228, 12%, 48%)
+    
 }
 
-button { 
-    color: hsl(158, 36%, 37%);
+.final-price, .old-price {
+    margin-right:1.5rem;
 }
 
+.add-to-cart { 
+    border-radius: 35%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color:hsl(158, 36%, 37%);
+    
+      
+}
 
+.add-to-cart:hover{
+    background-color: hsl(157, 39%, 23%);
+}
 
 
 
