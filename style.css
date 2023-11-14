@@ -1,19 +1,19 @@
-body {
-    font-size: 14px;
-    background-color: hsl(30, 38%, 92%);
+ body {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: hsl(30, 38%, 92%);
 }
 
-.all-card { 
+ .all-card { 
     display: flex;
-    background-color: white;
     font-size: 11px;
+    max-width: 100%;
     width: 40rem;
-    border-radius: 2%;
-}
+    border-radius: 2%; 
+    background-color: white;
+} 
 
 .all-card img{
     max-width: 50%;
@@ -21,10 +21,10 @@ body {
     border-end-start-radius: 2%;
     border-start-start-radius: 2%;
       
-}
+} 
 
 .text-and-price {
-    padding: 2rem;
+    margin: 2rem;
 }
 
 .class-parfume {
@@ -56,7 +56,7 @@ body {
 }
 .final-price {
     font-family: 'Fraunces', serif;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     color: hsl(158, 36%, 37%);
     
 }
@@ -64,6 +64,7 @@ body {
 .old-price {
     font-family: 'Montserrat', sans-serif;
     text-decoration: line-through;
+    font-size: 1rem;
     font-weight: 300;
     color: hsl(228, 12%, 48%)
     
@@ -74,37 +75,73 @@ body {
 }
 
 .add-to-cart { 
-    border-radius: 35%;
     display: flex;
     justify-content: center;
     padding: 1rem;
+    border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    font-size: 1rem;
     color: white;
     background-color:hsl(158, 36%, 37%);
     
       
 }
 
-.add-to-cart:hover{
-    background-color: hsl(157, 39%, 23%);
+.image-add-to-cart, .text-add-to-cart {
+    margin-right: 1rem;
 }
 
+.add-to-cart:hover{
+    background-color: hsl(157, 39%, 23%);
+} 
 
 
 
 
-/* @media only screen and (max-width: 451px) {
-    h1 {
-        font-size: 1.5rem;
-    }
 
-    p {
-        font-size: 1.2rem;
-    }
+@media only screen and (max-width: 375px) {
+  
 
-    .image-text-container {
-        width: auto;
-        padding: 1rem;
-    }
-} */
+        .all-card { 
+            display: block;
+            width: auto;
+            margin: 0.8rem;
+            border-radius: 3%;
+            padding-bottom: 15px;
+        }
+
+        .all-card img{
+            max-width:100%;
+              
+        } 
+    
+        .image-product-desktop {
+            
+            content: url('/images/image-product-mobile.jpg');
+            max-width: 100%;
+            height: auto;
+            border-start-start-radius: 3%;
+            border-start-end-radius: 3%;
+        }
+
+        .title-text {
+            margin-top: 0.1rem;
+            font-family: 'Fraunces', serif;
+            font-size: 1.8rem    
+        }
+
+        .description-text {
+            font-size: 0.80rem;
+                    
+        }
+
+        .final-price {
+            margin-top: 0.1rem;
+        }
+        .old-price {
+            margin-top: 0.0rem;
+        }
+
+       
+}
