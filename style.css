@@ -118,7 +118,7 @@
     
         .image-product-desktop {
             
-            content: url('/images/image-product-mobile.jpg');
+            content: url('./images/image-product-mobile.jpg');
             max-width: 100%;
             height: auto;
             border-start-start-radius: 3%;
