@@ -1,9 +1,11 @@
+ 
  body {
     
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
 }
 
  .all-card { 
@@ -84,7 +86,8 @@
     font-size: 1rem;
     color: white;
     background-color:hsl(158, 36%, 37%);
-    
+    cursor: pointer
+       
       
 }
 
